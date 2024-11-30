@@ -1,4 +1,4 @@
-🌤️ AirVibe: Your Personal Weather & Air Quality Companion
+🌤️ **AirVibe: Your Personal Weather & Air Quality Companion**
 AirVibe is a sleek and intuitive Flutter application designed to provide  weather updates and air quality insights for any location. Whether you're planning your day or concerned about the air you breathe, AirVibe has you covered!
 
 🚀 Features

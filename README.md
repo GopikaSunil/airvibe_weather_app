@@ -1,16 +1,24 @@
-# airvibe_weather_app
+🌤️ **AirVibe: Your Personal Weather & Air Quality Companion**
 
-A new Flutter project.
 
-## Getting Started
+AirVibe is a sleek and intuitive Flutter application designed to provide  weather updates and air quality insights for any location. Whether you're planning your day or concerned about the air you breathe, AirVibe has you covered!
 
-This project is a starting point for a Flutter application.
+🚀 Features
+🌎 Global Weather Information
 
-A few resources to get you started if this is your first Flutter project:
+Temperature (°C)
+Humidity (%)
+Weather Description
+Dynamic Weather Icons
+🌬️ Air Quality Index (AQI)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Search for weather details in any city
+Auto-detect your current location (coming soon!)
+🌈 Beautiful UI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Gradient backgrounds and weather icons for a visually stunning experience.
+Easy-to-navigate interface with responsive layouts.
+🛠️ Built With
+Flutter - The framework powering the app's cross-platform compatibility.
+OpenWeather API - Fetches real-time weather and air quality data.
+Dart - The programming language behind it all.

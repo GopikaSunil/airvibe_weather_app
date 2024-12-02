@@ -24,7 +24,9 @@ class worker
   {
     try{
       //get data
-      Response response = await get(Uri.parse('https://api.openweathermap.org/data/2.5/weather?q=$location&appid=053f21a0ebdc8212ee883bd5358aa42c'));
+      //Response response = await get(Uri.parse('https://api.openweathermap.org/data/2.5/weather?q=$location&appid=053f21a0ebdc8212ee883bd5358aa42c'));
+      Response response = await get(Uri.parse('https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?q=$location&appid=053f21a0ebdc8212ee883bd5358aa42c'));
+
       Map data = jsonDecode(response.body);
 
       //Getting Temp,Humidity
@@ -48,8 +50,7 @@ class worker
 
       double lat = data['coord']['lat'];
       double lon = data['coord']['lon'];
-      Response aqiResponse = await get(Uri.parse(
-          'http://api.openweathermap.org/data/2.5/air_pollution?lat=$lat&lon=$lon&appid=053f21a0ebdc8212ee883bd5358aa42c'));
+      Response aqiResponse = await get(Uri.parse('https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/air_pollution?lat=$lat&lon=$lon&appid=053f21a0ebdc8212ee883bd5358aa42c'));
       Map aqiData = jsonDecode(aqiResponse.body);
       int getAqi = aqiData['list'][0]['main']['aqi'];
 

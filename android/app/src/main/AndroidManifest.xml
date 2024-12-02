@@ -2,7 +2,7 @@
     <application
         android:label="AirVibe"
         android:name="${applicationName}"
-        android:icon="@mipmap/cloudy">
+        android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
             android:exported="true"
